@@ -1,4 +1,43 @@
 :root{
+  --bg1: #0b1220;
+  --bg2: #111827;
+  --card: rgba(255,255,255,0.06);
+  --border: rgba(255,255,255,0.12);
+  --text: #eef2ff;
+  --muted: rgba(238,242,255,0.72);
+  --link: #7dd3fc;
+}
+
+body{
+  margin:0;
+  color:var(--text);
+  background: radial-gradient(1200px 600px at 15% 10%, rgba(56,189,248,0.18), transparent 60%),
+              radial-gradient(900px 500px at 85% 20%, rgba(167,139,250,0.18), transparent 60%),
+              linear-gradient(180deg, var(--bg1), var(--bg2));
+  overflow-x:hidden;
+}
+
+.blob{
+  position: fixed;
+  width: 520px;
+  height: 520px;
+  filter: blur(60px);
+  opacity: 0.35;
+  z-index: -1;
+  border-radius: 999px;
+  animation: floaty 12s ease-in-out infinite;
+}
+
+.blob.one{ left:-160px; top:-140px; background: rgba(56,189,248,0.55); }
+.blob.two{ right:-200px; top:120px; background: rgba(167,139,250,0.55); animation-delay: -4s; }
+.blob.three{ left:20%; bottom:-260px; background: rgba(34,197,94,0.38); animation-delay: -8s; }
+
+@keyframes floaty{
+  0%,100%{ transform: translate(0,0) scale(1); }
+  50%{ transform: translate(40px, -30px) scale(1.05); }
+}
+
+:root{
   --text:#1f2937;
   --muted:#6b7280;
   --bg:#ffffff;
