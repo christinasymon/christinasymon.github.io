@@ -7,7 +7,12 @@
   <meta name="description" content="Senior Technical Support Engineer specializing in SaaS support, API debugging, SSO/SAML/IAM, and incident management." />
   <link rel="stylesheet" href="style.css" />
 </head>
+  
 <body>
+  <div class="blob one"></div>
+<div class="blob two"></div>
+<div class="blob three"></div>
+
   <header class="container">
     <div class="header-card">
       <div>
@@ -141,6 +146,44 @@
         <li><strong>B.S. Computer Science and Engineering</strong> — REVA University, India (May 2013 – May 2017)</li>
       </ul>
     </section>
+    <section class="card">
+  <h2>My Journey</h2>
+  <div class="timeline">
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <div class="t-top">
+          <strong>HackerRank</strong> — Senior Technical Support Engineer
+          <span class="t-date">Jul 2024 – Present</span>
+        </div>
+        <p>Escalations, RCA, API debugging, SSO/SAML/IAM, AWS logging.</p>
+      </div>
+    </div>
+
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <div class="t-top">
+          <strong>HackerRank</strong> — Technical Support Engineer
+          <span class="t-date">Aug 2021 – Jul 2024</span>
+        </div>
+        <p>End-to-end issue ownership, ticket triage, incident coordination.</p>
+      </div>
+    </div>
+
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <div class="t-top">
+          <strong>TrainerRoad</strong> — Support Agent Expert
+          <span class="t-date">Dec 2019 – Aug 2021</span>
+        </div>
+        <p>High-volume SaaS support, documentation improvements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   </main>
 
@@ -151,5 +194,19 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+  <script>
+  const els = document.querySelectorAll(".card, .project, .role");
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add("in");
+    });
+  }, { threshold: 0.12 });
+
+  els.forEach(el => {
+    el.classList.add("reveal");
+    io.observe(el);
+  });
+</script>
+
 </body>
 </html>
