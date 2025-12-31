@@ -103,7 +103,7 @@ a:hover{text-decoration:underline}
   line-height:1.05;
 }
 .grad{
-  background: linear-gradient(90deg, #7dd3fc, #a78bfa, #22c55e);
+  background: linear-gradient(90deg, #1e8ec2, #144be2, #7445cc);
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
 .lead{margin:0 0 18px;color:var(--muted);max-width:70ch;font-size:1.05rem}
