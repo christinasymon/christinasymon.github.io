@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Christina Symon Samuel | Portfolio</title>
+  <meta name="description" content="Senior Technical Support Engineer — SaaS, API debugging, SSO/SAML/IAM, AWS/Azure." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient blobs -->
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+
+  <header class="topbar" id="top">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Christina</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">What I do</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="iconbtn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="iconbtn__bars"></span>
+      </button>
+    </div>
+
+    <div class="mobileMenu" id="mobileMenu" hidden>
+      <a href="#profile">Profile</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">What I do</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="kicker">Hey! I’m Christina 👋</p>
+          <h1>
+            Senior Technical Support Engineer
+            <span class="grad">who loves turning tough issues into clear solutions.</span>
+          </h1>
+
+          <p class="lead">
+            I work at the intersection of customers, product, and engineering — debugging APIs,
+            untangling SSO/SAML, and driving incidents to resolution with calm, crisp communication.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contact">Contact me</a>
+            <a class="btn btn--ghost" href="#projects">See projects</a>
+          </div>
+
+          <div class="chips" aria-label="Highlights">
+            <span class="chip">API Debugging</span>
+            <span class="chip">SSO / SAML / IAM</span>
+            <span class="chip">AWS + Azure</span>
+            <span class="chip">RCA + Incident Mgmt</span>
+          </div>
+
+          <div class="social">
+            <a href="https://www.linkedin.com/in/christinasymon/" target="_blank" rel="noopener">LinkedIn</a>
+            <span>•</span>
+            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener">GitHub</a>
+            <span>•</span>
+            <a href="mailto:christina.symon@gmail.com">Email</a>
+            <span>•</span>
+            <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+
+        <div class="hero__card reveal">
+          <div class="profileCard">
+            <div class="profileCard__top">
+              <div class="avatar" aria-hidden="true"></div>
+              <div>
+                <p class="profileCard__name">Christina Symon Samuel</p>
+                <p class="profileCard__role">Senior Technical Support Engineer</p>
+              </div>
+            </div>
+
+            <div class="profileCard__stats">
+              <div class="stat">
+                <div class="stat__num">5+</div>
+                <div class="stat__label">Years in SaaS Support</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">SSO</div>
+                <div class="stat__label">SAML + IAM Focus</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">API</div>
+                <div class="stat__label">Debugging + Integrations</div>
+              </div>
+            </div>
+
+            <div class="profileCard__note">
+              <p>
+                Currently: supporting enterprise customers, driving escalations, and partnering with engineering
+                for RCAs and fixes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="section" id="profile">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Profile</h2>
+          <p>
+            Passionate about support engineering, obsessed with clarity ✨
+            I like problems that involve systems, people, and data.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <article class="card reveal">
+            <h3>What I’m great at</h3>
+            <ul class="bullets">
+              <li>Breaking down messy issues into clean steps</li>
+              <li>API debugging with Postman + logs</li>
+              <li>SSO/SAML troubleshooting (metadata, certs, ACS, claims)</li>
+              <li>Owning incidents end-to-end: triage → RCA → follow-ups</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Toolbox</h3>
+            <div class="pillGrid">
+              <span class="pill">Postman</span>
+              <span class="pill">AWS</span>
+              <span class="pill">Azure</span>
+              <span class="pill">ElasticSearch</span>
+              <span class="pill">Looker / Redash</span>
+              <span class="pill">Jira / Linear</span>
+              <span class="pill">GitHub</span>
+              <span class="pill">SQL</span>
+              <span class="pill">Python</span>
+              <span class="pill">Zendesk / Pylon</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="timeline card reveal" aria-label="Journey timeline">
+          <h3>My journey</h3>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <strong>HackerRank</strong> — Senior Technical Support Engineer
+                <span class="muted">Jul 2024 – Present</span>
+              </div>
+              <p class="muted">Escalations, incident ownership, API debugging, SSO/SAML, AWS logs, RCA.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <strong>HackerRank</strong> — Technical Support Engineer
+                <span class="muted">Aug 2021 – Jul 2024</span>
+              </div>
+              <p class="muted">End-to-end ticket ownership, triage, customer comms, internal coordination.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__body">
+              <div class="timeline__top">
+                <strong>TrainerRoad</strong> — Support Agent Expert
+                <span class="muted">Dec 2019 – Aug 2021</span>
+              </div>
+              <p class="muted">High-volume SaaS support + documentation improvements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Projects</h2>
+          <p>Small, practical things I build: tools, runbooks, templates, automations.</p>
+        </div>
+
+        <div class="carousel reveal" aria-label="Project carousel">
+          <button class="carBtn" data-dir="-1" aria-label="Previous project">←</button>
+
+          <div class="carViewport" id="carViewport">
+            <div class="carTrack" id="carTrack">
+              <!-- Card 1 -->
+              <article class="projectCard">
+                <div class="projectCard__img ph"></div>
+                <div class="projectCard__body">
+                  <div class="projectCard__top">
+                    <h3>SSO/SAML Troubleshooting Playbook</h3>
+                    <span class="tag">Docs</span>
+                  </div>
+                  <p class="muted">
+                    A step-by-step playbook to diagnose SAML login failures with reproducible checks and escalation criteria.
+                  </p>
+                  <div class="projectCard__meta">
+                    <span class="mini">SSO</span><span class="mini">SAML</span><span class="mini">IAM</span>
+                  </div>
+                  <a class="link" href="https://github.com/YOUR_GITHUB_USERNAME/REPO" target="_blank" rel="noopener">
+                    View on GitHub →
+                  </a>
+                </div>
+              </article>
+
+              <!-- Card 2 -->
+              <article class="projectCard">
+                <div class="projectCard__img ph"></div>
+                <div class="projectCard__body">
+                  <div class="projectCard__top">
+                    <h3>API Debugging Checklist</h3>
+                    <span class="tag">Runbook</span>
+                  </div>
+                  <p class="muted">
+                    A “no panic” checklist for reproducing API bugs: auth, headers, rate limits, idempotency, and logging.
+                  </p>
+                  <div class="projectCard__meta">
+                    <span class="mini">Postman</span><span class="mini">HTTP</span><span class="mini">Logs</span>
+                  </div>
+                  <a class="link" href="https://github.com/YOUR_GITHUB_USERNAME/REPO" target="_blank" rel="noopener">
+                    View on GitHub →
+                  </a>
+                </div>
+              </article>
+
+              <!-- Card 3 -->
+              <article class="projectCard">
+                <div class="projectCard__img ph"></div>
+                <div class="projectCard__body">
+                  <div class="projectCard__top">
+                    <h3>Incident Postmortem Template</h3>
+                    <span class="tag">Process</span>
+                  </div>
+                  <p class="muted">
+                    A lightweight RCA template focused on timelines, contributing factors, and actionable prevention items.
+                  </p>
+                  <div class="projectCard__meta">
+                    <span class="mini">RCA</span><span class="mini">SLA</span><span class="mini">Comms</span>
+                  </div>
+                  <a class="link" href="https://github.com/YOUR_GITHUB_USERNAME/REPO" target="_blank" rel="noopener">
+                    View on GitHub →
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button class="carBtn" data-dir="1" aria-label="Next project">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>What I do</h2>
+          <p>Support engineering “superpowers” that move teams faster.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card reveal">
+            <h3>Escalation ownership</h3>
+            <p class="muted">I drive high-priority issues with crisp timelines, expectations, and follow-through.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Debugging & reproduction</h3>
+            <p class="muted">API issues, integrations, weird edge cases — I make them reproducible and fixable.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Documentation that’s used</h3>
+            <p class="muted">Runbooks, macros, guides — optimized for speed during incidents and clarity for onboarding.</p>
+          </article>
+        </div>
+
+        <div class="faq card reveal" aria-label="FAQ">
+          <h3>FAQ</h3>
+
+          <button class="faq__q" aria-expanded="false">
+            What kinds of roles are you looking for?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__a" hidden>
+            Senior Technical Support / Support Engineering roles, especially SaaS products with APIs + auth.
+          </div>
+
+          <button class="faq__q" aria-expanded="false">
+            Are you comfortable with SSO/SAML work?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__a" hidden>
+            Yes — I regularly troubleshoot SSO/SAML integrations (metadata, certs, claims, redirects, ACS URLs).
+          </div>
+
+          <button class="faq__q" aria-expanded="false">
+            Can you work cross-functionally with engineering?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__a" hidden>
+            Absolutely — I’m used to standups, structured bug reports, reproduction steps, and RCAs.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact card reveal">
+          <div>
+            <h2>Let’s talk</h2>
+            <p class="muted">
+              Want to chat about support engineering, systems, and solving tricky customer problems?
+              Email me — I reply fast.
+            </p>
+            <div class="contact__links">
+              <a class="btn" href="mailto:christina.symon@gmail.com">Email me</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/christinasymon/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+            </div>
+          </div>
+
+          <div class="contact__mini">
+            <div class="miniCard">
+              <p class="miniCard__k">Location</p>
+              <p class="miniCard__v">USA (Remote-friendly)</p>
+            </div>
+            <div class="miniCard">
+              <p class="miniCard__k">Focus</p>
+              <p class="miniCard__v">API + Auth + Incidents</p>
+            </div>
+            <div class="miniCard">
+              <p class="miniCard__k">Certification</p>
+              <p class="miniCard__v">AWS Cloud Practitioner</p>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Christina Symon Samuel</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
